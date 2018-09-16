@@ -1,0 +1,27 @@
+body {
+    margin: 0 auto;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardContainer .card {
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(88, 124, 233);
+}
+.cardContainer .card img {
+    border-radius: 10px;
+}
+.prev_button {
+    position: fixed;
+    top: 200px;
+    right: 1020px;
+}
+.next_button {
+    position: fixed;
+    top: 200px;
+    left: 1020px;
+}
